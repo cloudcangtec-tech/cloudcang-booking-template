@@ -1,0 +1,15 @@
+name = "cloudcang-booking-template"
+main = "src/index.js"
+compatibility_date = "2026-09-13"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cloudcang-booking-template"
+database_id = "742675dc-39cc-4622-b5f7-d3314d0d3ca5"
+
+[triggers]
+crons = ["*/10 * * * *"]
